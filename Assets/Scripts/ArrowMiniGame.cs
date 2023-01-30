@@ -6,6 +6,10 @@ public class ArrowMiniGame : MonoBehaviour
 {
     public float moveSpeed;
     public Transform movePoint;
+
+    public GameObject NextSeq;
+    public GameObject PrevSeq;
+
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) & transform.position.y < 3)
@@ -23,6 +27,9 @@ public class ArrowMiniGame : MonoBehaviour
         if (collision.gameObject.tag == "Exit")
         {
             Destroy(collision.gameObject);
+            NextSeq.SetActive(true);
+            PrevSeq.SetActive(false);
+
         }
     }
 }
