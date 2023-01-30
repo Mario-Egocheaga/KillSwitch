@@ -9,6 +9,7 @@ public class ArrowMiniGame : MonoBehaviour
 
     public GameObject NextSeq;
     public GameObject PrevSeq;
+    public float tally = 0;
 
     public void Update()
     {
@@ -27,8 +28,13 @@ public class ArrowMiniGame : MonoBehaviour
         if (collision.gameObject.tag == "Exit")
         {
             Destroy(collision.gameObject);
-            NextSeq.SetActive(true);
-            PrevSeq.SetActive(false);
+            tally++;
+
+            if (tally == 3)
+            {
+                NextSeq.SetActive(true);
+                PrevSeq.SetActive(false);
+            }
 
         }
     }
