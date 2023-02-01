@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: e6a2a5e52cb2d734c95781d7f8f83507
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NuclearWarning_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 515
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ff2b5671d8b3a449cd01afe790b7d6
+      internalID: -1818044382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NuclearWarning_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 515
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818bb74fbfa24440ae59c88f0e95fe4
+      internalID: -980536724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NuclearWarning_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 515
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb94c8b3c5f854397e6803995c0745
+      internalID: -277061028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NuclearWarning_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 515
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b46fea07d2874587b987460ecc66f
+      internalID: -638194716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NuclearWarning_2: -2141856892
+      NuclearWarning_61: -559978536
+      NuclearWarning_68: -382472923
+      NuclearWarning_69: 875268736
+      NuclearWarning_75: 251528706
+      NuclearWarning_74: -1742624757
+      NuclearWarning_40: 1831963298
+      NuclearWarning_5: 1907895322
+      NuclearWarning_11: -1122924131
+      NuclearWarning_31: 1676432561
+      NuclearWarning_14: 625098147
+      NuclearWarning_82: -1172093653
+      NuclearWarning_41: -39947726
+      NuclearWarning_54: -270184350
+      NuclearWarning_0: 1751653666
+      NuclearWarning_51: -1032488285
+      NuclearWarning_13: 2032020293
+      NuclearWarning_43: -1703706082
+      NuclearWarning_85: 1250008443
+      NuclearWarning_44: 1196367105
+      NuclearWarning_38: -1929396877
+      NuclearWarning_24: -1213887213
+      NuclearWarning_27: -452764169
+      NuclearWarning_64: 1184324326
+      NuclearWarning_70: -356680711
+      NuclearWarning_73: -1193383184
+      NuclearWarning_88: -638194716
+      NuclearWarning_47: -393076824
+      NuclearWarning_78: 299890680
+      NuclearWarning_79: 661194864
+      NuclearWarning_36: 1063851214
+      NuclearWarning_17: 1318750407
+      NuclearWarning_30: 1840370609
+      NuclearWarning_57: 627187075
+      NuclearWarning_1: 1466978928
+      NuclearWarning_52: 1070958146
+      NuclearWarning_58: -2088631745
+      NuclearWarning_59: -1350650955
+      NuclearWarning_29: -555820545
+      NuclearWarning_19: 395757411
+      NuclearWarning_45: 658917595
+      NuclearWarning_16: 1149978085
+      NuclearWarning_18: -1818044382
+      NuclearWarning_56: 555578099
+      NuclearWarning_71: 1854844790
+      NuclearWarning_90: -1931635672
+      NuclearWarning_10: -1857743541
+      NuclearWarning_20: 2122445309
+      NuclearWarning_48: -797230817
+      NuclearWarning_37: -928249387
+      NuclearWarning_66: -2009426816
+      NuclearWarning_60: -2002955301
+      NuclearWarning_83: -1400061169
+      NuclearWarning_25: -678248743
+      NuclearWarning_49: -2074185676
+      NuclearWarning_63: -930226004
+      NuclearWarning_4: -1320297690
+      NuclearWarning_3: -453193817
+      NuclearWarning_39: -903008729
+      NuclearWarning_53: -323514055
+      NuclearWarning_81: -74979871
+      NuclearWarning_8: -1523940898
+      NuclearWarning_32: -1150325950
+      NuclearWarning_22: -49287187
+      NuclearWarning_26: -1696839468
+      NuclearWarning_42: -980536724
+      NuclearWarning_77: -384150336
+      NuclearWarning_21: -172613611
+      NuclearWarning_6: 276832046
+      NuclearWarning_89: -1882201216
+      NuclearWarning_76: 1033296771
+      NuclearWarning_15: -1300507135
+      NuclearWarning_46: -475214709
+      NuclearWarning_72: -1355990942
+      NuclearWarning_34: -1235528004
+      NuclearWarning_9: -1171352590
+      NuclearWarning_12: 305909248
+      NuclearWarning_23: 1007289480
+      NuclearWarning_87: -1646933374
+      NuclearWarning_65: -277061028
+      NuclearWarning_33: -1846576058
+      NuclearWarning_55: -2040988139
+      NuclearWarning_62: 1896541151
+      NuclearWarning_35: -1492084139
+      NuclearWarning_91: -201898257
+      NuclearWarning_7: 1235927698
+      NuclearWarning_84: 1683786264
+      NuclearWarning_50: -187932491
+      NuclearWarning_67: 262620614
+      NuclearWarning_80: 1712838793
+      NuclearWarning_86: 1606193942
+      NuclearWarning_28: -153212052
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
