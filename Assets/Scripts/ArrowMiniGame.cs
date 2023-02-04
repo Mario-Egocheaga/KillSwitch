@@ -30,7 +30,7 @@ public class ArrowMiniGame : MonoBehaviour
             Destroy(collision.gameObject);
             tally++;
 
-            if (tally == 3)
+            if (tally == 8)
             {
                 NextSeq.SetActive(true);
                 PrevSeq.SetActive(false);
