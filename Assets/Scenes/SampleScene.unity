@@ -170,7 +170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &62772588
 Transform:
   m_ObjectHideFlags: 0
@@ -863,6 +863,7 @@ GameObject:
   - component: {fileID: 433457601}
   - component: {fileID: 433457603}
   - component: {fileID: 433457602}
+  - component: {fileID: 433457604}
   m_Layer: 5
   m_Name: Password Generator
   m_TagString: Untagged
@@ -877,19 +878,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433457600}
-  m_LocalRotation: {x: 0, y: 0, z: 0.12801667, w: 0.99177206}
+  m_LocalRotation: {x: 0, y: 0, z: -0.12186928, w: 0.9925462}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2094893005}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.71}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 127.7, y: -93.14}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0, y: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 85.8, y: -163.5}
+  m_SizeDelta: {x: 800, y: 50}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &433457602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,7 +911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"1234"'
+  m_text: 1234
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -937,8 +938,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -987,6 +988,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433457600}
   m_CullTransparentMesh: 1
+--- !u!114 &433457604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433457600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc548c70e9820a42a992c435cf9acfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passwordtext: {fileID: 433457602}
+  randomPassword: {fileID: 685107765}
+  player1: 0
 --- !u!1 &457588767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,8 +1081,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514819993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: -6.01, y: 0, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1900230479}
@@ -1161,7 +1177,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1595,13 +1611,14 @@ GameObject:
   m_Component:
   - component: {fileID: 685107763}
   - component: {fileID: 685107764}
+  - component: {fileID: 685107765}
   m_Layer: 0
   m_Name: -- End Sequence --
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &685107763
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,6 +1654,33 @@ MonoBehaviour:
   countDownText: {fileID: 1581106861}
   whoWon: {fileID: 1481102444}
   prevSection: {fileID: 685107762}
+--- !u!114 &685107765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685107762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdebf1bd3343fbb40851dff21ce02f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passwords:
+  - Password
+  - 123456
+  - Skye
+  - Bing47328
+  - qwerty
+  - 11111
+  - Reese
+  - Khorbin
+  - Kristen
+  - Alice
+  player1int: 0
+  player2int: 0
+  player1Pass: 
+  player2Pass: 
 --- !u!1 &723724993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,8 +1830,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783943141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.94, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 6.46, y: 0, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2094893005}
@@ -2131,6 +2175,8 @@ MonoBehaviour:
   input: {fileID: 819026433}
   prevSeq: {fileID: 685107762}
   WhoWon: {fileID: 1481102444}
+  player1: 0
+  passwordHolder: {fileID: 685107765}
 --- !u!1 &910581569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,6 +3618,8 @@ MonoBehaviour:
   input: {fileID: 1265820150}
   prevSeq: {fileID: 685107762}
   WhoWon: {fileID: 1481102444}
+  player1: 1
+  passwordHolder: {fileID: 685107765}
 --- !u!1 &1311635125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,6 +4864,7 @@ GameObject:
   - component: {fileID: 1851150549}
   - component: {fileID: 1851150551}
   - component: {fileID: 1851150550}
+  - component: {fileID: 1851150552}
   m_Layer: 5
   m_Name: Password Generator
   m_TagString: Untagged
@@ -4840,8 +4889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.71}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 127.7, y: -93.14}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -47.1, y: -187.2}
+  m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1851150550
 MonoBehaviour:
@@ -4863,7 +4912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"1234"'
+  m_text: 1234
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4890,8 +4939,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4940,6 +4989,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851150548}
   m_CullTransparentMesh: 1
+--- !u!114 &1851150552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851150548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc548c70e9820a42a992c435cf9acfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passwordtext: {fileID: 1851150550}
+  randomPassword: {fileID: 685107765}
+  player1: 1
 --- !u!1 &1887455746
 GameObject:
   m_ObjectHideFlags: 0

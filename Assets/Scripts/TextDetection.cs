@@ -11,12 +11,28 @@ public class TextDetection : MonoBehaviour
     public GameObject prevSeq;
     public GameObject WhoWon;
 
+    public bool player1;
+
+    public RandomPassword passwordHolder;
+
     void Update()
     {
-        if (input.text == "1234")
+
+        if (player1)
         {
-            prevSeq.SetActive(false);
-            WhoWon.SetActive(true);
+            if (input.text == passwordHolder.player1Pass)
+            {
+                prevSeq.SetActive(false);
+                WhoWon.SetActive(true);
+            }
+        }
+        else
+        {
+            if (input.text == passwordHolder.player2Pass)
+            {
+                prevSeq.SetActive(false);
+                WhoWon.SetActive(true);
+            }
         }
     }
 }
