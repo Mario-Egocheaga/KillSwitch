@@ -11,6 +11,8 @@ public class TextDetection : MonoBehaviour
     public GameObject prevSeq;
     public GameObject WhoWon;
 
+    public GameObject Player1Won, Player2Won;
+
     public bool player1;
 
     public RandomPassword passwordHolder;
@@ -24,6 +26,7 @@ public class TextDetection : MonoBehaviour
             {
                 prevSeq.SetActive(false);
                 WhoWon.SetActive(true);
+                Player1Won.SetActive(true);
             }
         }
         else
@@ -32,6 +35,7 @@ public class TextDetection : MonoBehaviour
             {
                 prevSeq.SetActive(false);
                 WhoWon.SetActive(true);
+                Player2Won.SetActive(true);
             }
         }
     }
