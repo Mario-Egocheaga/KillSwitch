@@ -17,9 +17,9 @@ public class ArrowMiniGame : MonoBehaviour
             transform.Translate(0, 1.25f, 0);
         else if (Input.GetKeyDown(KeyCode.DownArrow) & transform.position.y > -3)
             transform.Translate(0, -1.25f, 0);
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) & transform.position.x > -5)
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) & transform.position.x > -7)
             transform.Translate(-1.25f, 0, 0);
-        else if (Input.GetKeyDown(KeyCode.RightArrow) & transform.position.x < 5)
+        else if (Input.GetKeyDown(KeyCode.RightArrow) & transform.position.x < 7)
             transform.Translate(1.25f, 0, 0);
     }
 

@@ -11,6 +11,7 @@ public class CountdownTimer : MonoBehaviour
 
     public GameObject whoWon;
     public GameObject prevSection;
+    public GameObject firstSection;
 
     public void Start()
     {

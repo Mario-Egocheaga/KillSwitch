@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AdSpawner : MonoBehaviour
 {
+    public Transform parent;
     public GameObject[] spawnPoints;
 
     public GameObject[] prefabs;
@@ -25,7 +27,9 @@ public class AdSpawner : MonoBehaviour
 
         int prefabSelected = Random.Range(0, prefabs.Length);
 
-        Instantiate(prefabs[prefabSelected], spawnPoints[spawnPointIndex].transform.position, Quaternion.identity);
+        GameObject ad = Instantiate(prefabs[prefabSelected], spawnPoints[spawnPointIndex].transform.position, Quaternion.identity);
+
+        ad.transform.parent = parent.transform;
 
     }
 }
