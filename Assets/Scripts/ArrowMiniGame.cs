@@ -25,17 +25,17 @@ public class ArrowMiniGame : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Exit")
-        {
-            Destroy(collision.gameObject);
-            tally++;
-
-            if (tally == 8)
+            if (collision.gameObject.tag == "Exit")
             {
-                NextSeq.SetActive(true);
-                PrevSeq.SetActive(false);
-            }
+                Destroy(collision.gameObject);
+                tally++;
 
-        }
+                if (tally == 8)
+                {
+                    NextSeq.SetActive(true);
+                    PrevSeq.SetActive(false);
+                }
+
+            }
     }
 }
