@@ -23,9 +23,12 @@ public class ArrowMiniGame : MonoBehaviour
             transform.Translate(1.25f, 0, 0);
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-            if (collision.gameObject.tag == "Exit")
+        if (collision.gameObject.tag == "Exit") 
+        {
+
+            if (Input.GetKey(KeyCode.Space))
             {
                 Destroy(collision.gameObject);
                 tally++;
@@ -35,7 +38,8 @@ public class ArrowMiniGame : MonoBehaviour
                     NextSeq.SetActive(true);
                     PrevSeq.SetActive(false);
                 }
-
             }
+
+        }
     }
 }

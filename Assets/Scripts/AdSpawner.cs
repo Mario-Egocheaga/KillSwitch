@@ -15,7 +15,7 @@ public class AdSpawner : MonoBehaviour
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("Grid");
 
-        InvokeRepeating("Spawn", 1f, 1f);
+        InvokeRepeating("Spawn", 1f, 2f);
 
     }
 
