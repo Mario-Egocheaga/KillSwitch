@@ -141,7 +141,7 @@ TextureImporter:
       name: ClickHereAd_1
       rect:
         serializedVersion: 2
-        x: 62
+        x: 64
         y: 255
         width: 384
         height: 160
@@ -162,8 +162,8 @@ TextureImporter:
       name: ClickHereAd_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 75
+        x: 64
+        y: 77
         width: 384
         height: 160
       alignment: 0
